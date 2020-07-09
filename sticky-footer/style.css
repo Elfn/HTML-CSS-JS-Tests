@@ -40,3 +40,18 @@ footer{
 .msg{
     color: yellow;
 }
+
+
+    .marquee {
+        position: absolute;
+        animation: scroll 5s linear infinite
+      }
+      
+      @keyframes scroll {
+        0% {
+          left: 100%;
+        }
+        100% {
+          left: -50px;
+        }
+      }
