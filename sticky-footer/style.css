@@ -1,0 +1,42 @@
+html, body{
+    /* margin: 0; */
+
+    /* Faire croire au logiciel que notre site est un tableau */
+    /* display: table; */
+    /* height: 100%;
+    width: 100%; */
+
+    
+}
+
+/* La hauteur des containers doit s'adapter au contenu */
+/* .container{
+    height: auto;
+    width: 100%;
+} */
+
+/* Ici on veut que footer corresponde a un ligne du tableau */
+/* footer{
+    display: table-row;
+    height: 1px;
+    background-color: #009410;
+} */
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background-color: #009410;
+    display: block;
+    position: fixed;
+}
+
+.infolabel{
+    background-color: yellow;
+    color: #009410;
+}
+
+.msg{
+    color: yellow;
+}
