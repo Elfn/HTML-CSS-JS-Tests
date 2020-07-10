@@ -35,10 +35,12 @@ footer{
 .infolabel{
     background-color: yellow;
     color: #009410;
+    z-index: 0;
 }
 
 .msg{
     color: yellow;
+    z-index: 1;
 }
 
 
